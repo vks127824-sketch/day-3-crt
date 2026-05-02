@@ -1,0 +1,14 @@
+//problem 8
+//lock phone to unlock by do whi loop
+#include <iostream>
+using namespace std;
+int main(){
+    int password;
+    
+    do{
+        cout << "Enter your password here...";
+        cin >> password;
+    } while(password != 708521);
+    
+    cout << "Phone Unlocked...";
+}
